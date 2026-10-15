@@ -1,5 +1,6 @@
 from fastapi import FastAPI, UploadFile, File, HTTPException
-from ingest import clean_text
+from ingest import clean_text, recursive_text_chunk, semantic_text_chunk
+from embeddings import generate_embeddings
 
 app = FastAPI()
 
@@ -14,7 +15,12 @@ async def upload_document(file: UploadFile = File(...)):
     try:
         content = await file.read()
         file_content = clean_text(filename,content)
-        #print(file_content)
+        chunks = semantic_text_chunk(file_content)
+        print(chunks)
+        vectors = generate_embeddings(chunks)
+
+        return {"vectors":vectors}
+
 
         if not file_content:
             raise HTTPException(400, "File is empty")
@@ -25,6 +31,5 @@ async def upload_document(file: UploadFile = File(...)):
     except Exception as error:
         raise HTTPException(400,f"Failed :( error: {error}")
 
-        
-    
-    return {"message": "uploaded"}
+    finally:
+        await file.close()
