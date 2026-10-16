@@ -1,7 +1,7 @@
 # AI-Powered Interview Assistant
 This project is a backend for an AI-powered interview assistant that can answer questions from uploaded documents (.pdf/.txt) and handle interview booking requests.
 
-### Tech Stack:
+## Tech Stack:
 
 1. FastAPI: Backend REST APIs.
 2. Gemini 3.5 Flash: AI responses and query understanding.
@@ -14,7 +14,7 @@ This project is a backend for an AI-powered interview assistant that can answer 
 9. PostgreSQL: Interview booking storage.
 10. SQLAlchemy: Database interaction and ORM.
 
-### File Description:
+## File Description:
 
 1. main.py starts the FastAPI app, connects the API routes, and creates the database tables.
 2. api/document.py handles document uploads, while api/chat.py manages chat messages, AI responses, conversation history, and interview bookings.
@@ -27,7 +27,7 @@ This project is a backend for an AI-powered interview assistant that can answer 
 9. schema.py defines the format of requests sent to the chat API.
 10. sample_files/info.txt is a sample text file that can be uploaded to test.
 
-### To pull and use:
+## To pull and use:
 
 1. Clone the repository:
    git clone https://github.com/Rizan012/interview-ai-assistant.git
@@ -48,7 +48,7 @@ This project is a backend for an AI-powered interview assistant that can answer 
 
 6. Open http://127.0.0.1:8000/docs to test the APIs.
 
-### Results:
+## Results:
 
 A. Document Upload
 ![Document Upload](ss/doc_upload.png)
