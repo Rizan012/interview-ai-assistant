@@ -1,4 +1,4 @@
-This project is a backend for an AI-powered interview assistant that can answer questions from uploaded documents and handle interview booking requests.
+This project is a backend for an AI-powered interview assistant that can answer questions from uploaded documents (.pdf/.txt) and handle interview booking requests.
 
 ### Tech Stack:
 FastAPI: Backend REST APIs.
@@ -11,6 +11,18 @@ RAG: Context-based answers from uploaded documents.
 Redis: Conversation history and session management.
 PostgreSQL: Interview booking storage.
 SQLAlchemy: Database interaction and ORM.
+
+### File Description
+main.py starts the FastAPI app, connects the API routes, and creates the database tables.
+api/document.py handles document uploads, while api/chat.py manages chat messages, AI responses, conversation history, and interview bookings.
+ingest.py extracts text from PDF and TXT files and splits it using recursive or semantic chunking.
+embeddings.py sets up the Ollama embedding model, and qdrant_store.py stores document chunks and their embeddings in Qdrant.
+rag.py finds relevant information from uploaded documents to help answer user questions.
+redis_history.py saves and retrieves chat history using Redis.
+booking.py checks the interview details and saves booking requests to PostgreSQL. booking_schema.py defines the structure of the booking information.
+database/database.py manages the PostgreSQL connection, database/models.py defines the interview booking table, and database/database_schema.py provides the SQLAlchemy base for the models.
+schema.py defines the format of requests sent to the chat API.
+sample_files/info.txt is a sample text file that can be upload to test.
 
 ### To pull and use:
 1. Clone the repository:
