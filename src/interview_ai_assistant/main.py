@@ -7,6 +7,11 @@ from fastapi import FastAPI
 from api.document import router as document_router
 from api.chat import router as chat_router
 
+from database.database import engine
+from database.models import Base, InterviewBooking
+
+Base.metadata.create_all(bind=engine)
+
 app = FastAPI()
 
 app.include_router(document_router)

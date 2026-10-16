@@ -47,5 +47,6 @@ def save_booking(session_id: str, details: BookingIntent) -> str:
             return f"Booking request saved, id: {booking.id}"
 
 
-    except Exception:
-        return "Sorry, Couldnt save booking."
+    except Exception as e:
+        print("Booking error:", repr(e))
+        return "Sorry, Couldn't save booking."
