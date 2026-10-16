@@ -19,7 +19,7 @@ def clean_text(filename:str,content:str)->str:
     
 
 def recursive_text_chunk(file_content: str) -> list[str]:
-    text_splitter= RecursiveCharacterTextSplitter(chunk_size=1000,chunk_overlap=200)
+    text_splitter= RecursiveCharacterTextSplitter(chunk_size=500,chunk_overlap=50)
     return text_splitter.split_text(file_content)
 
 

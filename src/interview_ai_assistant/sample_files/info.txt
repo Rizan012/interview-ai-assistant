@@ -1,11 +1,198 @@
-Document Chunking Test: Python, Weather, and Interview Scheduling
+SOUTHERN CROSS RETAIL GROUP
+Recruitment and Candidate Information Guide
 
-Python is a popular programming language used for automation, data analysis, and backend development. Developers often choose Python because its syntax is readable and its ecosystem includes many useful libraries. FastAPI is a Python framework for building REST APIs, while Django is commonly used for larger web applications.
-The weather forecast says that today will be sunny with mild temperatures. Tomorrow may bring rain and stronger winds, so people planning outdoor activities should check the forecast before leaving home. Weather services use observations and models to estimate future conditions.
-Python also supports machine learning and natural language processing. Libraries such as scikit-learn help developers build traditional machine learning models, while PyTorch is widely used for deep learning. A backend application can use these tools to classify text, make predictions, or process documents.
-Interview scheduling requires collecting the candidate's name, email address, preferred date, and preferred time. The application should validate the submitted details before saving a booking. It should also check whether the requested time slot is available and return a clear response if the slot has already been taken.
-For document question answering, a system first extracts text from PDF or TXT files. It then divides the text into chunks, converts those chunks into embedding vectors, and stores the vectors in a database such as Qdrant. When a user asks a question, the system embeds the query and retrieves chunks with related meanings.
-FastAPI can expose an endpoint that accepts an interview booking request. Pydantic models can validate fields such as email and date, and a SQL database can store the confirmed booking. The API should avoid creating duplicate bookings for the same candidate and time slot.
-Clouds form when moist air cools and water vapor condenses into tiny droplets or ice crystals. Wind moves air from areas of higher pressure toward areas of lower pressure. These atmospheric processes influence whether a day is clear, rainy, or stormy.
-A retrieval-augmented generation system, often called RAG, combines search with a language model. The retriever finds relevant document chunks, and the language model uses those chunks to formulate an answer. Good chunking can improve retrieval, but chunks that are too large may contain unrelated information.
-Python is also useful for testing APIs. Developers can write automated tests to check successful requests, invalid input, unavailable interview slots, and database errors. Clear error messages and consistent response formats make an API easier for other developers to use. Before confirming an interview, the system should normalize the date and time, apply the correct time zone, and save the booking only after validation succeeds. It can then return a booking identifier so the candidate can refer to the appointment later.
+Document Type: Recruitment and Candidate Information  
+Location: Melbourne, Victoria, Australia  
+Department: Marketing and Communications  
+Position: Marketing Coordinator  
+Employment Type: Full-time  
+Work Arrangement: Hybrid  
+Document Date: 16 October 2026
+
+Note: This document is prepared for testing an interview-assistant application. Southern Cross Retail Group and the recruitment details below are fictional.
+
+================================================================================
+
+1. ABOUT THE COMPANY
+
+Southern Cross Retail Group is an Australian retail organization operating across lifestyle products, homewares, and personal accessories. The company serves customers through a combination of physical retail stores and online shopping channels.
+
+Our teams work collaboratively to deliver consistent customer experiences, support product launches, and develop marketing initiatives that reflect customer needs and business objectives.
+
+1.1 Our Values
+1. Customer Focus: Delivering useful products and positive customer experiences.
+2. Integrity: Communicating honestly and acting responsibly.
+3. Collaboration: Working effectively across departments.
+4. Accountability: Taking ownership of responsibilities and deadlines.
+5. Continuous Improvement: Learning from customer feedback and business performance.
+
+================================================================================
+
+2. POSITION OVERVIEW: MARKETING COORDINATOR
+
+The Marketing Coordinator will support the planning, execution, and evaluation of marketing campaigns across digital and traditional channels. The role involves coordinating campaign materials, maintaining schedules, preparing content, and assisting with marketing performance reports.
+
+The successful candidate will work closely with the Marketing Manager, design team, sales department, and retail operations team.
+
+2.1 Key Responsibilities
+1. Assist with planning seasonal promotions and marketing campaigns.
+2. Prepare content for email newsletters and social media.
+3. Coordinate campaign materials with internal teams and external suppliers.
+4. Maintain the marketing calendar and monitor deadlines.
+5. Assist with product launches and promotional events.
+6. Conduct basic market and competitor research.
+7. Track campaign performance and prepare reports.
+8. Ensure marketing materials follow established brand guidelines.
+9. Provide administrative support to the marketing team.
+
+2.2 Essential Requirements
+* A degree in Marketing, Business, Communications, or a related field, or equivalent relevant experience.
+* Strong written and verbal communication skills.
+* Good organizational and time-management abilities.
+* Attention to detail and the ability to manage competing priorities.
+* Confidence working collaboratively with different teams.
+* Basic familiarity with social media and digital marketing platforms.
+
+Note: Previous marketing experience, knowledge of email marketing tools, and familiarity with campaign analytics are desirable but not mandatory.
+
+================================================================================
+
+3. RECRUITMENT PROCESS
+
+The recruitment process consists of three stages. Progression depends on the outcome of each stage, and candidates will receive further instructions from the recruitment team.
+
+3.1 Stage 1: Initial Recruitment Interview
+* Duration: Approximately 20 minutes  
+* Format: Video call or telephone interview  
+* Purpose: Evaluates candidate's background, communication skills, interest in the role, and general suitability.
+
+Example Questions:
+1. Could you introduce yourself and describe your professional background?
+2. Why are you interested in this Marketing Coordinator position?
+3. What interests you about working in retail marketing?
+4. How do you organize your work when managing several deadlines?
+5. What skills would you like to develop in this role?
+
+3.2 Stage 2: Marketing Interview
+* Duration: Approximately 45 minutes  
+* Format: Video call or in-person interview  
+* Purpose: Evaluates practical marketing knowledge, problem-solving, communication, and teamwork.
+
+Example Questions:
+1. How would you plan a promotional campaign for a new product?
+2. How would you identify an appropriate target audience?
+3. Which metrics would you use to evaluate a social media campaign?
+4. What would you do if a campaign was not meeting its targets?
+5. How would you coordinate campaign materials with a designer and sales team?
+6. How would you respond to negative customer feedback online?
+
+Note: Candidates may also be asked to discuss relevant academic projects, previous work, or volunteer experience.
+
+3.3 Stage 3: Final Interview
+* Duration: Approximately 30 minutes  
+* Format: Video call or in-person interview  
+* Purpose: Focuses on teamwork, working preferences, availability, and expectations for the position.
+
+Example Questions:
+1. Describe a time you worked with others to complete a task.
+2. How do you respond to constructive feedback?
+3. How do you prioritize urgent and important tasks?
+4. What type of working environment helps you perform well?
+5. What questions do you have about the role or team?
+
+================================================================================
+
+4. INTERVIEW PREPARATION
+
+Candidates are encouraged to review the position description and prepare examples that demonstrate their skills and experience.
+
+Before the interview, candidates should:
+1. Prepare a brief professional introduction.
+2. Review relevant education, employment, and project experience.
+3. Prepare examples of communication, organization, and teamwork.
+4. Consider how they would approach basic marketing scenarios.
+5. Prepare questions about the role and team.
+6. Check the interview invitation, date, time, and meeting link.
+7. Join the meeting a few minutes before the scheduled start.
+
+Candidates should provide honest answers and clearly explain their own contributions to any projects they discuss.
+
+================================================================================
+
+5. INTERVIEW SCHEDULING
+
+The following dates and times are sample availability for testing the interview-booking system. They are not confirmed appointments or a live company calendar.
+
+* Interview Type: Initial Recruitment Interview  
+* Expected Duration: Approximately 20 minutes  
+* Location: Melbourne, Victoria, Australia  
+* Time Zone: Australian Eastern Daylight Time (AEDT, UTC+11)
+
+5.1 Example Available Dates
+* Monday, 19 October 2026
+* Tuesday, 20 October 2026
+* Thursday, 22 October 2026
+
+5.2 Example Available Time Slots
+* 9:30 AM
+* 11:00 AM
+* 1:30 PM
+* 3:00 PM
+
+All listed times are in AEDT.
+
+5.3 Information Required to Request a Booking
+Candidates must provide:
+1. Full name
+2. Email address
+3. Preferred interview date
+4. Preferred interview time
+5. Interview type
+
+5.4 Booking Procedure
+1. The candidate submits the required information.
+2. The system validates the submitted details.
+3. The requested slot is checked against existing bookings.
+4. If the slot is available, the booking is recorded.
+5. A confirmation is returned only after the booking has been saved successfully.
+
+If the requested slot is unavailable, the candidate must select another available time. Invalid email addresses, missing information, or unavailable slots must not result in a confirmed booking.
+
+================================================================================
+
+6. FREQUENTLY ASKED QUESTIONS
+
+Q1: How long is the initial interview?
+A: The initial recruitment interview is expected to last approximately 20 minutes.
+
+Q2: Is the position full-time?
+A: Yes. The example Marketing Coordinator position is listed as full-time.
+
+Q3: Where is the company based?
+A: The fictional company is headquartered in Melbourne, Victoria, Australia.
+
+Q4: What should I prepare for the first interview?
+A: Prepare a brief introduction, review the position description, and be ready to discuss your communication, organization, and teamwork experience.
+
+Q5: Is previous marketing employment required?
+A: Previous marketing experience is desirable but not mandatory under the example requirements. Relevant education or equivalent experience may be considered.
+
+Q6: Can I choose my interview time?
+A: You may request one of the listed sample time slots, subject to availability and successful booking validation.
+
+Q7: What is the salary for this position?
+A: Salary information is not specified in this document.
+
+Q8: Who should I contact about my application?
+A: Recruiter names and contact details are not specified in this document.
+
+Q9: Does selecting a time automatically confirm my interview?
+A: No. The booking must pass validation, and the slot must be available and successfully recorded before confirmation is returned.
+
+================================================================================
+
+7. IMPORTANT INFORMATION
+
+This document describes a fictional recruitment scenario created for software testing. It does not represent an actual company vacancy, live calendar, confirmed appointment, or binding employment offer.
+
+The interview assistant should answer questions using the information provided in this document. If a requested detail is unavailable, the assistant should clearly state that it is not specified rather than inventing information.

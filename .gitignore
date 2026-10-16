@@ -12,3 +12,5 @@ wheels/
 
 # Environment Var
 .env
+
+qdrant_data/
